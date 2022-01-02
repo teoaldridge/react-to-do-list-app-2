@@ -14,6 +14,7 @@ function App() {
     setListItems((prevValue) => {
       return [...prevValue, input];
     });
+    setInput("");
   }
 
   //console.log(listItems);
